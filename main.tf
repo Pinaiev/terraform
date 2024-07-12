@@ -26,7 +26,7 @@ provider "aws" {
 #     Name = "Private-net"
 #   }
 # }
-
+#123
 # resource "aws_internet_gateway" "Actpro-GW" {
 #   vpc_id = aws_vpc.actpro-vpc.id
 #   tags = {

@@ -8,7 +8,7 @@ provider "aws" {
 #         Name = "ActPRO-NET"
 #   }
 # }
-
+#Subnet
 # resource "aws_subnet" "front-end-net" {
 #   vpc_id     = aws_vpc.actpro-vpc.id
 #   cidr_block = "10.0.1.0/24"

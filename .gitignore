@@ -1,0 +1,11 @@
+# local terrraform dir
+.terraform/*
+
+# maybe state files
+terraform.tfstate
+terraform.tfstate.backup
+hashicorp.gpg
+# varialbes file - we don't have it yet
+# but next lesson we wiil store secrets here
+*.tfvars
+.terraform.lock.hcl
